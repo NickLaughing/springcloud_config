@@ -1,0 +1,13 @@
+server: 
+  port: 9600 
+  
+spring:
+  application:
+    name:  microservicecloud_config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/enjoy6288/qianggeconfig.git #GitHub上面的git仓库名字
+ 
+
